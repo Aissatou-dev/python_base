@@ -1,7 +1,6 @@
-n = 5
-d = {}
+n = int(input("Donner une valeur: "))
+dict1= dict()
+for i in range(1, n + 1):
+    dict1.update({i: i*i})
 
-for x in range(1, n + 1):
-    d[x] = x * x
-
-print(d)
+print(dict1)

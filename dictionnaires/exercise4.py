@@ -1,7 +1,6 @@
 d = {1: "A", 2: "B", 3: "C"}
 
-cle = 2
-
+cle = int(input("donnez la cle:"))
 if cle in d:
     print("La clé existe.")
 else:
